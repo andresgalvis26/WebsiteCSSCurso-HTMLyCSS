@@ -423,7 +423,13 @@ body {
 
     .about_course{
         width: 100%;
+        text-align: center; /* Para centrar el botón */
     }
+
+    .about_paragraph {
+        text-align: left;
+    }
+
 
     .about_picture{
         order: -1;
@@ -471,11 +477,13 @@ body {
 
 
     /* Footer contact */
+
     .footer_contact {
         grid-template-columns: 1fr;
     }
 
     .footer_texts {
+        margin: 0 auto;
         order: 1;
         --align-title: center;
     }
@@ -577,5 +585,9 @@ body {
 
     .course_picture {
         display: none;
+    }
+
+    .footer_copy {
+        text-align: center;
     }
 }
